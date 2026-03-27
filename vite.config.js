@@ -6,10 +6,10 @@ export default defineConfig({
   server: {
     port: 5173,
     proxy: {
-      "/api": {
-        target: "https://backend-workflow-one.vercel.app/",
-        changeOrigin: true
-      }
+      // "/api": {
+      //   target: "https://backend-workflow-one.vercel.app/",
+      //   changeOrigin: true
+      // }
     }
   }
 });
